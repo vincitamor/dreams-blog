@@ -1,0 +1,103 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* 
+=================================
+Grid
+=================================
+*/
+
+.container {
+    margin: 0px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 960px;
+  }
+
+  /*
+=================================
+Typography
+=================================
+*/
+
+h1, h3, h4, h5, p {
+    margin-bottom: 22px;
+  }
+  
+/*
+=================================
+Buttons
+=================================
+*/
+
+.btn {
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .btn-alt {
+    border: 1px solid #dfe2e5;
+    padding: 10px 30px;
+  }
+
+  .hero {
+    padding: 22px 80px 66px 80px;
+  }
+
+  .con {
+    display: inline;
+  }
+/* html {
+font-size: 20px
+} */
+
+body {
+background-color: #9e7070;
+color: whitesmoke;
+}
+
+a {
+    color: #5951c9;
+}
+a:visited {
+    color: lightgray;
+}
+
+
+/* p {
+font-size: 15px;
+color: #393;
+}
+h2 {
+font-size: 30px;
+color: #189;
+}
+ol {
+font-size: 18px
+}
+a {
+color: aliceblue;
+}
+a:visited {
+color: lightgray;
+}
+a:hover, a:active {
+color: #eee;
+}
+h3 {
+color: #455
+}
+em {
+color: #663
+}
+h2 ~ p {
+    font-size: 24px;
+}
+a[href="#Dream-Meaning"] {
+    color:greenyellow;
+} */
