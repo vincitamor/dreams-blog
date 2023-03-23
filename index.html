@@ -10,18 +10,42 @@
 </head> 
 
 <body>
-
-<div class="header">
-    <h2>So... Dreams, huh?</h2>
-    </div>
+    <header>
+        <h1 class="mainTitle">Dreams and their awesomeness</h1>
+    
+    <nav class="mainNav">
+        <ul>
+              <li class="list"><a href="/">Home</a></li>
+              <li class="list"><a href="/about.html">About</a></li>
+              <li class="list"><a href='#' onclick="displayInfo()">Contact me!</a></li>
+              
+              <div id="popup" style="display: none;">
+                <ul id="contact">
+                    <li class="list contacts">Looking to get in touch? <a href="mailto:nomail@example.com">Email me!</a></li>
+                    
+                    <li class="list contacts">More into phone calls? <a href="tel:+123456789">Call me!</a></li>
+                    
+                    <li class="list contacts"><a href="https://duckduckgo.com" target="_blank">Back to browsing the web?</a></li> 
+                    <li class="list contacts"><a href="index.html">Main page</a></li>
+                    
+                    </ul>
+                    <button onclick="hidePopup()" style="margin-top: 5px;">Close</button>
+            </div>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="postOne">
+        <article>
     <div class="row">
         <div class="leftcolumn">
             <div class="card">
-                <h2>Dreams, what are they and where do they come from?</h2>
-                <h5>If you are like me, then I am sure the simple thought about dreams and its complicated nature excites you. I am getting excited just even writing about it. Dreams are indeed a spectacular phenomenon, one in which has been discussed for centuries due to its unexplainable nature and well deserving of the attention it has receieved. Many known figures throughout history have had theories and beliefs of their own, some contradicting one or the other, but nonetheless all are interesting and credible in their own ways. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;March 17, 2023</h5>
-                <hr><br>
+                <h2 class="articleTitle">Preface</h2>
+                <p class="meta"><time datetime='2023-03-17'>March 17, 2023</time></p>
+                <h5 class="blogDescr">If you are like me, then I am sure the simple thought about dreams and its complicated nature excites you. I am getting excited just even writing about it. Dreams are indeed a spectacular phenomenon, one in which has been discussed for centuries due to its unexplainable nature and well deserving of the attention it has receieved. Many known figures throughout history have had theories and beliefs of their own, some contradicting one or the other, but nonetheless all are interesting and credible in their own ways. </h5>
+                <br>
                 <div class="dreamImage" style="height: 200px;">
-                <img style="height: 300px; border: 5px; border-radius: 3%;" src="assets/fantasy-g294e934f2_1920.jpg">
+                <img style="margin-left:400px; height: 300px; border: 5px; border-radius: 3%;" src="assets/fantasy-g294e934f2_1920.jpg">
                 <p>Enter into the dream realm..</p>
             </div>
             </div>
@@ -37,17 +61,17 @@
     </nav>
     <br>
     <div class="container">
-    <message>You have some weird dream that makes no logical sense, what do you think it symbolizes?
-    </message>
+    <p>You have some weird dream that makes no logical sense, what do you think it symbolizes?
+    </p>
     <br>
-        <form action="" id="form">
-            <input id="userInput" placeholder="Enter your guess"/><button id="add-input">Submit</button>
-    
-        </form>
+        <form>
+  <input type="text" id="answer" name="answer" placeholder="Enter your answer">
+  <button type="submit">Submit</button>
+</form>
     </div>
 </header>
+</section>
 
-<main>
 <article id="Dream-meaning">
 <h2>Meaning of Dreams</h2>
 
@@ -65,16 +89,15 @@
     </details>
     </aside>
 <p>&lt;  &gt; </p>
-</section>
+</article>
+
 
 <hr>
 <address>
-    <header class="dreamLocation">
 <h2>WHERE do dreams happen?</h2>
     <p>Like, really?</p>
     <p>Like, really?</p>
 
-    </header>
 <dl>
 <dt>The Brain:</dt>
 <dd>Where it all goes down.</dd>
@@ -104,7 +127,7 @@ In the cognitive part of your brain,
 <p>Dream-life is something which has been pondered<br> and researched but there is no definitive answer, yet.
 <br>Some reasons for dreaming can be explained as:</p>
 <ol>
-<li>&nbsp;&nbsp;&nbsp;Dreams can arise due to somatic stimulation while the dreamer is asleep.</li>
+<li>&nbsp;&nbsp;&nbsp;Dreams can arise due to somatic stimulation while the dream is asleep.</li>
 <li>&nbsp;&nbsp;&nbsp;Dreams can be <em>experiences or thoughts</em> which occurred yesterday, or<br>&nbsp;&nbsp;&nbsp;years before which come in the form of an <strong>odd and twisted version of a dream.</strong></li>
 </ol>
 </article>
@@ -127,6 +150,7 @@ Curious to know how to better remember your dreams?
 Before you sleep, <mark>make yourself aware</mark> that you will dream, and focus on that thought so when you wake up, it will be the first thought which comes to mind. Sleeping at <time datetime="10:00">10 pm</time> and sleeping for <time datetime="PT8H">8 hours</time> is also beneficial.
 </p>
 </details>
+</section>
 </aside>
 </section>
 </article>
@@ -139,6 +163,10 @@ Before you sleep, <mark>make yourself aware</mark> that you will dream, and focu
 <p>
 <a class="btn btn-alt" href="#">Back to top</a>
 </p>
+<script src="/js/script.js"></script>
 </body>
 
 </html>
+
+
+
