@@ -66,6 +66,7 @@ header {
 }
 
 body {
+font-weight: 800;
 background-color: #9e7070;
 color: whitesmoke;
 font-family: sans-serif;
@@ -73,13 +74,14 @@ font-size: larger;
   margin: 0;
   padding: 0;
   background-image: url(/assets/fantasy-g294e934f2_1920.jpg);
+  background-blend-mode:difference ;
 }
 
 a {
     color: rgba(0, 102, 255, 0.9);
 }
 a:visited {
-    color: grey;
+    color: lightgrey;
 }
 a:hover {
   color: lightblue;
@@ -90,7 +92,8 @@ a:hover {
 }
 
 .questionOne {
-  text-transform: capitalize;
+  text-decoration: double;
+  font-size: medium;
 }
 
 .footer {
@@ -107,6 +110,7 @@ a:hover {
 
 .maintitle {
   font-family: Impact;
+  color: rgba(16, 252, 111, 0.949);
 }
 .headone {
   margin-left: auto;
@@ -114,6 +118,18 @@ a:hover {
 }
 .contact h3{
   display: inline;
+}
+.reasons {
+  margin-top: 4rem;
+}
+.boat {
+  margin-top: 3rem
+}
+.summary:hover {
+  color: #d89a27;
+}
+.aboutme {
+  text-align: center;
 }
 /* p {
 font-size: 15px;
