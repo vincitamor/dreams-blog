@@ -131,6 +131,17 @@ a:hover {
 .aboutme {
   text-align: center;
 }
+.footerstyle {
+  text-align: center;
+}
+.contactinfo {
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+}
+.goals {
+  text-align: left;
+}
 /* p {
 font-size: 15px;
 color: #393;
