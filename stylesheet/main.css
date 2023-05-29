@@ -56,50 +56,17 @@ Buttons
 font-size: 20px
 } */
 
-header {
-  background-color: rgb(51, 51, 51);
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-}
-
 body {
 font-weight: 800;
 background-color: #9e7070;
 color: whitesmoke;
-font-family: sans-serif;
-font-size: larger;
-  margin: 0;
-  padding: 0;
-  background-image: url(/assets/fantasy-g294e934f2_1920.jpg);
-  background-blend-mode:difference ;
 }
 
 a {
     color: rgba(0, 102, 255, 0.9);
 }
 a:visited {
-    color: lightgrey;
-}
-a:hover {
-  color: lightblue;
-}
-
-.blogDescr {
-  text-align: center;
-}
-
-.questionOne {
-  text-decoration: double;
-  font-size: medium;
-}
-
-.footer {
-  text-align: center; 
-  padding-bottom: 5px; 
-  padding-left: 5px;
+    color: lightgray;
 }
 
 .pBottom {
@@ -108,40 +75,38 @@ a:hover {
 
 }
 
-.maintitle {
-  font-family: Impact;
-  color: rgba(16, 252, 111, 0.949);
+/* p {
+font-size: 15px;
+color: #393;
 }
-.headone {
-  margin-left: auto;
-  margin-right: auto;
+h2 {
+font-size: 30px;
+color: #189;
 }
-.contact h3{
-  display: inline;
+ol {
+font-size: 18px
 }
-.reasons {
-  margin-top: 4rem;
+a {
+color: aliceblue;
 }
-.boat {
-  margin-top: 3rem
+a:visited {
+color: lightgray;
 }
-.summary:hover {
-  color: #d89a27;
+a:hover, a:active {
+color: #eee;
 }
-.aboutme {
-  text-align: center;
+h3 {
+color: #455
 }
-.footerstyle {
-  text-align: center;
+em {
+color: #663
 }
-.contactinfo {
-  text-align: center;
-  margin: 10px;
-  display: inline-block;
+h2 ~ p {
+    font-size: 24px;
 }
-.goals {
-  text-align: left;
-}
+a[href="#Dream-Meaning"] {
+    color:greenyellow;
+} */
 /* p {
 font-size: 15px;
 color: #393;
